@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "MED100": { nombre: "MED 100 - ANATOMÍA HUMANA", grupos: 8, subgrupos: 3 },
         "MED101": { nombre: "MED 101 - HISTOLOGÍA Y EMBRIOLOGÍA", grupos: 8, subgrupos: 3 },
         "SAP100": { nombre: "SAP 100 - SALUD PÚBLICA I", grupos: 8, subgrupos: 1 },
-        "MAF100": { nombre: "FORMACIÓN SOCIOCULTURAL", grupos: 8, subgrupos: 1 }
+        "MAF100": { nombre: "MAF 100 - FORMACIÓN SOCIOCULTURAL", grupos: 8, subgrupos: 1 }
     };
 
     // Horarios específicos para cada materia, grupo y subgrupo
