@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 10px; /* Tamaño de fuente más pequeño */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Colores para cada materia */
+.color-MED200 { background-color: #ffcccc; }
+.color-MED201 { background-color: #ccffcc; }
+.color-MED202 { background-color: #ccccff; }
+.color-MED203 { background-color: #ffffcc; }
+.color-MED209 { background-color: #ffccff; }
+.color-SAP200 { background-color: #ccffff; }
+.color-SAP300 { background-color: #ffcc99; }
+
+/* Estilos para los contenedores de materias */
+.contenedor-materia {
+    margin-bottom: 1px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.nombre-materia {
+    font-size: 1.0em; /* Tamaño de fuente para el nombre de la materia */
+    margin-bottom: 5px;
+}
+
+/* Estilos para las tablas de grupos y subgrupos */
+.tabla-grupos {
+    width: 100%;
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+}
+
+.tabla-grupos td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+/* Estilo para celdas con horarios cruzados */
+.horario-cruzado {
+    background-color: #ffcccc !important; /* Fondo rojo */
+}
